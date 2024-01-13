@@ -1,0 +1,167 @@
+/* shared style this website */
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Lato', sans-serif;
+} 
+.section-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom:20px;
+}
+.primary-btn{
+    border-radius: 8px;
+    background-color: #E55473;
+    color: #FFF;
+    border:0;
+    padding:15px 20px;
+} 
+
+.section-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+/* header section  */
+
+header{
+    background-color: rgba(229, 84, 115, 0.10);
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.banner-title{
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.banner-left{
+    width:50%;
+    margin-left:100px;
+} 
+.banner img{
+    width:500px;
+} 
+/* section-flower   style */
+
+.section-flower{
+    max-width:1300px;
+    margin:100px auto;
+}
+.section-flower .section-title{
+    text-align: center;
+} 
+.flower-description{
+    max-width:500px;
+    margin:20px auto;
+    text-align: center;
+} 
+.container-flower{
+    display: flex;
+    margin:30px  100px;
+    justify-content: space-around;
+} 
+.img-div{
+    margin-bottom:20px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding-top:40px;
+}
+.img-div img{
+    width:250px;
+    height:300px;
+    padding: 40px;
+}
+.card{
+    text-align: center;
+    color: #272727;
+    font-size: 20px;;
+    font-weight: 700;
+    padding:20px;
+    margin-top:15px;
+
+} 
+.bg-2{
+    background-color: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.bg-3{
+    background-color: rgba(71, 125, 17, 0.15);
+}
+/* small div */
+
+.small-div{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    margin: 20px 100px;
+} 
+.small-card{
+    text-align: center;
+} 
+/* off-sec style  */
+.off-section{
+    border-radius: 8px;
+    background-color: rgba(229, 84, 115, 0.05);
+    padding:100px;
+}
+.off-sub-div{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+.off-sec-div{
+    width:50%;
+    text-align:center;
+} 
+.off{
+    color:#E55473;
+}
+
+/* instagram-section style */
+.instagram-section{
+    padding:100px;
+}
+
+.instagram-section .section-title{
+   text-align: center;
+} 
+.div-img-ins{
+    display: flex;
+    justify-content: space-around;
+    margin-top:50px;
+} 
+.div-img-ins img{
+    width:250px;
+    height:280px;
+} 
+/* Get The Latest Deals style */
+
+.bg-img{
+    text-align: center;
+    max-width:1109px;
+    padding: 50px;
+    margin:20px auto;
+    border-radius: 8px;
+    background-image: url('../Flower Asset/Rectangle 9.png');
+} 
+.input-text{
+    border: 0;
+    padding:15px 20px;
+    width:500px;
+    margin-right: 10px;
+    border-radius:5px;
+} 
+/* footer style */
+footer{
+    text-align: center;
+    background-color: black;
+    color:white;
+    padding:70px;
+    margin-top: 50px;
+}
